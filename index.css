@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.main {
+    background-image: url(./img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 115vh;
+    margin-top: -270px;
+}
+
+.swiper-slide sliper img{
+    width: 325px;
+    height: 100px;
+}
+.header_menu {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.header_ {
+    display: flex;
+    justify-content: center;
+    gap: 373px;
+    padding-top: 34px;
+}
+
+.buton {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.8px;
+    background-color: #fff;
+    color: #ff4948;
+    width: 191px;
+    height: 61px;
+    border-radius: 62px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+hr {
+    margin-top: 7px;
+    height: 35px;
+}
+
+.header_btn {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    padding-top: 15px;
+
+    background-color: #fff;
+    border: none;
+}
+
+.header_btn i {
+    color: #FF4948;
+}
+
+.header_btn:hover {
+   box-shadow: 0px -3px 14px -1px;
+}
+
+.it {
+    padding-top: 107px;
+    font-family: Rubik;
+    font-size: 22px;
+    padding-top: 107px;
+    font-weight: 500;
+    line-height: 30.8px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-align: left;
+}
+
+.move {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    margin-top: 165px;
+}
+
+.dh_ {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.do {
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 57.2px;
+    text-align: left;
+}
+
+.do_ {
+    font-family: Rubik;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 43.4px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.dh {
+    width: 57px;
+    height: 0px;
+    color: #FFFFFF;
+    border: 2px;
+}
+
+.the {
+    font-family: Rubik;
+    font-size: 99.17px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 3px;
+    line-height: 99.17px;
+    text-align: left;
+}
+
+.move_the {
+    padding-top: 107px;
+}
+
+.muci {
+    margin-top: 180px;
+    width: 570px;
+    height: 583px;
+}
+
+.do {
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    text-align: left;
+}
+
+.dh {
+    width: 57px;
+    height: 0px;
+    top: 568px;
+    left: 991px;
+    border: 2px;
+}
+
+.muci img {
+    width: 570px;
+    height: 583px;
+}
+
+.dh_ {
+    padding-top: 45px;
+}
+
+
+.our {
+    padding-top: 245px;
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    color: #180202;
+    text-align: center;
+}
+
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.good {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 185px;
+}
+
+.loud {
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    text-align: left;
+}
+
+.crud {
+    margin-top: 30px;
+    display: flex;
+    margin-right: 105px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ba {
+    font-family: Rubik;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 43.4px;
+    color: #180202;
+    text-align: left;
+}
+
+.batr {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.batry {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FF4948;
+}
+
+.lat {
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    padding-top: 130px;
+    line-height: 57.2px;
+    text-align: center;
+}
+
+.lorem {
+    padding-top: 25px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #191919;
+    text-align: center;
+}
+
+.lorem_title {
+    width: 332px;
+    height: 331px;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 28px 125px 28px 28px;
+    background-color: #FFE5EE;
+}
+
+.lorem_title img {
+    width: 225px;
+    margin-top: -36px;
+    height: 340px;
+}
+
+.lorem__title {
+    width: 332px;
+    height: 331px;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 28px 125px 28px 28px;
+    background-color: #E5F1FF;
+}
+
+.lorem__title img {
+    width: 225px;
+    margin-top: -36px;
+    height: 340px;
+}
+
+.lorem_-title {
+    width: 332px;
+    height: 331px;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 28px 125px 28px 28px;
+    background-color: #E5FFFB;
+}
+
+.lorem_-title img {
+    width: 225px;
+    margin-top: -36px;
+    height: 340px;
+}
+
+.lorem_box {
+    display: flex;
+    justify-content: center;
+    gap: 63px;
+}
+
+
+.star {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 104px;
+}
+
+.star_ {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 94px;
+}
+
+.thre {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.read {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    text-align: left;
+}
+
+.lorem_ {
+    background-color: #FFE5EE;
+    margin-left: 27px;
+    border-radius: 59px;
+    margin-top: -18px;
+    display: flex;
+    width: 55px;
+    height: 54px;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.lorem__ {
+    background-color: #E5F1FF;
+    margin-left: 27px;
+    border-radius: 59px;
+    margin-top: -18px;
+    display: flex;
+    width: 55px;
+    height: 54px;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.lorem_- {
+    background-color: #E5FFFB;
+    margin-left: 27px;
+    border-radius: 59px;
+    margin-top: -18px;
+    display: flex;
+    width: 55px;
+    height: 54px;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.get_p {
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    line-height: 57.2px;
+    text-align: left;
+
+}
+
+.get {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    gap: 37px;
+}
+
+.get_menu {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.get_menu li a {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    text-align: left;
+    color: #000000;
+}
+
+.dolor {
+    width: 712px;
+    margin-top: 152px;
+    height: 292px;
+    margin-left: 435px;
+    border-radius: 20px;
+    background-color: #FFF4F4;
+}
+
+.dol {
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    text-align: center;
+}
+
+.dolo {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.input {
+    margin-left: 105px;
+    height: 55px;
+    width: 400px;
+    margin-top: 36px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 73px;
+}
+
+.btn {
+    padding: 15px 30px 15px 30px;
+    border-radius: 73px;
+    background-color: #FF4948;
+}
+
+.d0lor {
+    background-image: url(./img/milodiya.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+
+.thre {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #180202;
+}
+
+
+.s_ {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    text-align: left;
+    color: #180202;
+}
+
+.s__ {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.8px;
+    text-align: center;
+    color: #180202;
+}
+
+.p_ {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.8px;
+    text-align: center;
+    color: #000;
+}
+
+.line {
+    width: 292px;
+    height: 0px;
+    top: 3493px;
+    left: 925px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    margin-bottom: 15px;
+}
+
+footer {
+    padding-top: 77px;
+    background-color: #E86564;
+    padding-bottom: 94px;
+    margin-top: 130px;
+}
+
+.fot_menu {
+    display: flex;
+    justify-content: center;
+    gap: 360px;
+}
+
+.fot {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+
+.foter_a a {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.8px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.sliper {
+    width: 400px;
+    height: 385px;
+    border-radius: 30px;
+}
+
+.sliper:hover {
+    box-shadow: 0px -6px 24px -3px;
+}
+
+.buton:hover {
+    color: white;
+    transition: 0.8s;
+    background-color: #f9c6c6;
+}
+
+.it:hover {
+    color: #ffd6d6;
+}
+
+.the:hover {
+    color: #ffd6d6;
+}
+
+.do:hover {
+    color: #ffd6d6;
+}
+
+.do_ {
+    color: #ffd6d6;
+}
+
+.our:hover {
+    color: #ffd6d6;
+}
+
+.loud:hover {
+    color: #ffd6d6;
+}
+
+.ba:hover {
+    color: #ffd6d6;
+}
+
+.batr:hover {
+    color: #c8c8c8;
+}
+
+.batry:hover {
+    color: #000;
+}
+
+.lorem_-title:hover {
+    background-color: #c8f5ee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.lorem__title:hover {
+    background-color: #cde2fa;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.lorem_title:hover {
+    background-color: #fcc9db;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.lorem_:hover {
+    background-color: #fcc9db;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.lorem__:hover {
+    background-color: #cde2fa;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.lorem_-:hover {
+    background-color: #c8f5ee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.read:hover {
+    color: #c8c8c8;
+}
+
+.thre:hover {
+    color: rgb(123, 38, 38);
+}
+.p_{
+    color: rgb(123, 38, 38);
+}
+.get_p:hover{
+    color: #ffd6d6;
+}
+.get_a:hover{
+    color: #efa2a2;
+}
+.get_menu i:hover{
+    color: rgb(150, 34, 34);
+}
+.btn:hover{
+    background-color: #f88e8e;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.menu{
+    color: #fff;
+}
+.menu:hover{
+    color: #E86564;
+    transition: 1s;
+}
